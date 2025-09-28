@@ -1,6 +1,12 @@
-bdy{
-    color: green;
-}
+body{}
+
 table{
-    border-collapse: collapse;
+     border-collapse: collapse ;
+}
+table thead{
+    background-color: rgb(131, 169, 238);
+    border: black;
+}
+table tbody{
+    background-color: rgb(202, 214, 253);
 }
