@@ -4,9 +4,19 @@ table{
      border-collapse: collapse ;
 }
 table thead{
-    background-color: rgb(131, 169, 238);
+    background-color: rgb(110, 135, 180);
     border: black;
 }
 table tbody{
-    background-color: rgb(202, 214, 253);
+    background-color: rgb(184, 198, 245);
+    border: black;
 }
+tr{
+    transition: all ease 300;
+}
+tr:hover{
+    background-color: rgb(151, 192, 231);
+}
+td{
+padding: 10px;}
+th {padding: 10px;}
