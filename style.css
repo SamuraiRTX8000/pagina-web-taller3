@@ -3,19 +3,21 @@ body{}
 table{
      border-collapse: collapse ;
 }
-table thead{
-    background-color: rgb(110, 135, 180);
+.operadores-comparacion thead{
+    background-color: #0a3d62;
+    color: beige;
     border: black;
 }
-table tbody{
-    background-color: rgb(184, 198, 245);
+.operadores-comparacion tbody{
+    background-color: rgb(174, 196, 236);
     border: black;
 }
+
 tr{
-    transition: all ease 300;
+    transition: all ease 500;
 }
 tr:hover{
-    background-color: rgb(151, 192, 231);
+    background-color: rgb(230, 230, 230);
 }
 td{
 padding: 10px;}
