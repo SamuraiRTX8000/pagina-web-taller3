@@ -3,6 +3,15 @@ body{}
 table{
      border-collapse: collapse ;
 }
+.operadores-logicos thead{
+    background-color:#e55039 ;
+    color: beige;
+    border: white;
+}
+.operadores-logicos tbody{
+    background-color:#f8c291 ;
+    border: white;
+}
 .operadores-comparacion thead{
     background-color: #0a3d62;
     color: beige;
@@ -18,6 +27,10 @@ tr{
 }
 tr:hover{
     background-color: rgb(230, 230, 230);
+}
+tr, td{
+    text-align: center;
+    text-align: middle;
 }
 td{
 padding: 10px;}
