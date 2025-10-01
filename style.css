@@ -2,6 +2,7 @@ body{}
 
 table{
      border-collapse: collapse ;
+     margin: 20px auto;
 }
 .operadores-logicos thead{
     background-color:#e55039 ;
@@ -28,7 +29,7 @@ tr{
 tr:hover{
     background-color: rgb(230, 230, 230);
 }
-tr, td{
+th,ol,li,tr,h1,p, td{
     text-align: center;
     text-align: middle;
 }
