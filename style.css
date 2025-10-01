@@ -3,7 +3,13 @@ body{}
 table{
      border-collapse: collapse ;
      margin: 20px auto;
+     font-family: Arial, sans-serif;
 }
+h1,p{font-family:'Poppins', sans-serif;
+ }
+ ol,li{
+    font-family:'Roboto', sans-serif, ;
+ }
 .operadores-logicos thead{
     background-color:#e55039 ;
     color: beige;
